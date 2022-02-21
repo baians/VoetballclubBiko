@@ -12,13 +12,14 @@ public class Voetbalclub {
 
     }
 
+        public void setName(String naam) {
+        this.naam = naam;
+    }
+
     public String getName() {
         return naam;
     }
 
-    public void setName(String naam) {
-        this.naam = naam;
-    }
 
     public int getAantalGewonnen() {
         return aantalGewonnen;
